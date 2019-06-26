@@ -1,0 +1,259 @@
+/*index-Login*/
+.imagen{
+    
+    height: 100vh;
+}
+.imagen img{
+    max-width: 102%;
+}
+.panel-log{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color:#F2F2F2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulo-index{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 44px;
+    color: #38393B;
+    text-align: center;
+}
+.subtitulo-index{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #38393B;
+    text-align: center;
+}
+.formulario{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #38393B;
+}
+.formulario input{
+    margin-bottom: 20px;
+    border: none;
+    width: 400px;
+    height:40px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    padding-left: 5px; 
+}
+.formulario label{
+    margin-bottom: 10px;
+}
+.formulario button{
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #5CB85C;
+    border: none;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    height:40px;
+}
+.formulario button:active{
+    height: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+/*Dashboard estudiante*/
+a:link, a:hover, a:visited, a:active, a {
+    color:#38393B;
+    text-decoration: none;
+}
+.navset{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    font-size: 18px;
+    color:#ffffff;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    background-color:#2B4371;
+}
+.itescamlog img{
+    width: 40px;
+    height: 30px;
+}
+.itescamlog{
+    display: flex;
+    justify-content:flex-start;
+}
+.usernamenav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menunav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menunav div{
+    color:#ffffff;
+}
+.item:hover{
+    transition: color 0.1s Ease-in 0.200ms;
+    border-bottom:5px solid #ffffff;
+}
+.content-title{
+    color:#38393B;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px; 
+    border-right: 30px groove #106AA5;
+    display: flex;
+    justify-content: flex-end;
+    align-content:center;
+    margin-bottom: 15px; 
+
+}
+.content-title2{
+    color:#38393B;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px; 
+    border-right: 30px groove #04BF68;
+    display: flex;
+    justify-content: flex-end;
+    align-content:center;
+    margin-bottom: 15px; 
+
+}
+.espaciado{
+    margin-top:60px;
+}
+.grid-content{
+    display: grid;
+    grid-template-columns: repeat(4,minmax(100px,400px));
+    justify-content: center;
+    grid-gap: 30px; /*espacios entre imagenes   */
+    margin-bottom: 20px;
+}
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-family: 'Roboto', serif;
+    font-size: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+.grid-item:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.d-asign{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.title-card{
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: solid 2px  rgba(82, 84, 83, .8);
+}
+.idcolor{
+    background-color:#106AA5;
+    max-width: 100%;
+    height: 15px;
+    border-radius:5px; 
+    margin:0px;
+    padding:0px;
+}
+.idcolor2{
+    background-color:#04BF68;
+    max-width: 100%;
+    height: 15px;
+    border-radius:5px; 
+    margin:0px;
+    padding:0px;
+}
+.minespacio{
+    display: flex;
+}
+.minespacio img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.count-quest{
+    font-family: 'Roboto Slab', serif;
+    font-size: 80px;
+    color: #106AA5;
+    text-align: right;
+    border-right: 16px groove #106AA5;
+}
+.title-quest{
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    color: #106AA5;
+    text-align: left;
+}
+.form-questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    font-family: 'Roboto', serif;
+    font-size: 24px;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.espaciado-quest{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+}
+.form-questions label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.formulario-btn button{
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #5CB85C;
+    border: none;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    height:40px;
+    width:100%; 
+    margin-bottom: 20px;
+}
+.formulario-btn button:active{
+    height: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.btnsuccess2{
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #5CB85C;
+    border: none;
+}
